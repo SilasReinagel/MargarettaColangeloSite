@@ -1,17 +1,7 @@
 :root {
-    --text-color: #c5a608;
+    --text-color: #000;
 }
 
-@font-face {
-    font-family: 'Snell Roundhand';
-    src: url('../fonts/SnellRoundhand-BoldScript.eot');
-    src: url('../fonts/SnellRoundhand-BoldScript.eot?#iefix') format('embedded-opentype'), 
-        url('../fonts/SnellRoundhand-BoldScript.woff2') format('woff2'), 
-        url('../fonts/SnellRoundhand-BoldScript.woff') format('woff'), 
-        url('../fonts/SnellRoundhand-BoldScript.svg#SnellRoundhand-BoldScript') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
 body, html {
     overflow-x:hidden;
 }
@@ -27,7 +17,7 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 h1, h2, h3, h4, h5, h6, span, p {
-    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-family: proxima-nova, 'Open Sans', Arial, Helvetice Neue, sans-serif;
 }
 
 * {
@@ -35,15 +25,19 @@ h1, h2, h3, h4, h5, h6, span, p {
     -moz-border-radius: 0 !important;
     border-radius: 0 !important;
 }
+
 p {
     margin-top: 20px;
 }
+
 li {
     margin-top: 5px;
 }
+
 ul, ol {
     margin-top: 20px;
 }
+
 .spw-section {
     padding-top: 10px;
     padding-bottom: 40px;
@@ -68,8 +62,10 @@ ul, ol {
 }
 
 .header-text {
-    font-family: 'Snell Roundhand', 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-family: proxima-nova, 'Open Sans', Arial, Helvetice Neue, sans-serif;
     color: var(--text-color);
+    font-weight: 300;
+    text-transform: uppercase;
     margin: -7px;
 }
 /** Clearfix after containers and items **/

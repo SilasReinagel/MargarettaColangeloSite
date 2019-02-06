@@ -1,328 +1,132 @@
 .nav1,
-
 .top-menu {
-
     z-index: 5000;
-
     width:100%;
-
-    min-height: 70px;
-
-    max-height: 70px;
-
-    margin-bottom: -5px;
-
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0 4px 8px -2px #999;
+    -moz-box-shadow: 0 4px 8px -2px #999;
+    box-shadow: 0 4px 8px -2px #999;
 }
-
-
 
 .navbar {
-
     margin-bottom: 0;
-
     white-space: nowrap;
-
 }
-
-
 
 .navbar-nav {
-
     width: 100%;
-
     text-align: center;
-
 }
-
-
 
 .navbar .navbar-nav {
-
 }
-
-
 
 .navbar .navbar-collapse {
-
     text-align: center;
-
 }
-
-
 
 .navbar-collapse.in, .navbar-collapse.collapsing {
-
     overflow-y: visible;
-
 }
-
-
 
 .navbar-default .navbar-toggle .icon-bar {
-
     border: 0;
-
 }
-
-
 
 .brand-logo.header-text {
     margin-top: 1px;
     max-height: 35px !important;
     width: auto !important;
     margin-bottom: 1px;
-
 }
 
-
-
 .brand-logo.small {
-
     display: none;
     font-size: 42px !important; 
     max-height: 35px !important;;
-
 }
-
-
 
 .center.navbar .nav,
-
 .center.navbar .nav > li {
-
     float:none;
-
     display: inline-block;
-
     *display:inline; /* ie7 fix */
-
     *zoom:1; /* hasLayout ie7 trigger */
-
     vertical-align: top;
-
     overflow: hidden;
-
 }
-
-
 
 .center .navbar-inner {
-
     text-align:center;
-
 }
-
-
 
 .center .dropdown-menu {
-
     text-align: left;
-
 }
-
-
 
 .nav:after {
-
     content:"";
-
     display:block;
-
     clear:both;
-
 }
-
-
 
 .navbar-nav.navbar-right:last-child {
-
     margin-right: -15px !important;
-
 }
-
-
 
 .navbar-right {
-
     margin-top: 12px;
-
     margin-right: 20px;
-
     float: right !important;
-
 }
-
-
 
 .navbar-right-links {
-
     margin-top: 12px;
-
     margin-right: 20px;
-
     float: right !important;
-
 }
 
-
-
-.navbar-default div.navbar-collapse
-
-{
-
+.navbar-default
+div.navbar-collapse {
     border-top:none;
-
     box-shadow:none;
-
 }
-
-
 
 .navbar-default {
-
     background-color: rgba(255, 255, 255, 1.00);
-
     border:none;
-
 }
-
-
-
-.nav2 {
-
-    background-color: #2c94D3;
-
-    min-height: 70px;
-
-    margin-top: 70px;
-
-    display: inline-block;
-
-    float: none;
-
-    vertical-align: top;
-
-    z-index: 5001;
-
-    width:100%;
-
-    -webkit-box-shadow: 0 4px 8px -2px #999;
-
-    -moz-box-shadow: 0 4px 8px -2px #999;
-
-    box-shadow: 0 4px 8px -2px #999;
-
-}
-
-
-
-.nav2 .navbar-nav > li > a{
-
-    font-weight: 500;
-
-    font-size: 18px;
-
-    color: #fff;
-
-}
-
-
-
-.nav2 > li > a:hover,
-
-.nav2 > li > a:focus,
-
-.nav2 .navbar-nav > .active > a,
-
-.nav2 .navbar-nav > .active > a:hover,
-
-.nav2 .navbar-nav > .active > a:focus,
-
-.nav2 .navbar-nav > li > a:hover,
-
-.nav2 .navbar-nav > li > a:focus {
-
-    background-color: #fff;
-
-    color: #85714d;
-
-}
-
-
-
-.nav2 .navbar-collapse {
-
-    text-align: center;
-
-}
-
-
-
-.nav2 .container-fluid {
-
-    margin-top: 6px;
-
-}
-
-
 
 @media only screen and (max-width: 610px) {
-
     .brand-logo.large {
-
         display: none;
-
     }
-
-
 
     .brand-logo.small {
-
         display: block;
-
     }
-
 }
-
-
 
 @media only screen and (min-width: 610px) and (max-width: 660px) {
-
     .secondary {
-
         display: none !important;
-
     }
-
 }
-
-
 
 @media only screen and (max-width: 360px) {
-
     .secondary {
-
         display: none !important;
-
     }
-
 }
-
-
 
 @media only screen and (max-width: 768px) {
-
     .center.navbar .nav,
-
     .center.navbar .nav > li {
-
         display: block !important;
-
         *display: block !important; /* ie7 fix */
-
         *zoom:1; /* hasLayout ie7 trigger */
-
     }
-
 }
-
