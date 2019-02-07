@@ -16,8 +16,13 @@ body {
    /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
 }
-h1, h2, h3, h4, h5, h6, span, p {
-    font-family: proxima-nova, 'Open Sans', Arial, Helvetice Neue, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+p, span {
+    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
 }
 
 * {
@@ -62,12 +67,11 @@ ul, ol {
 }
 
 .header-text {
-    font-family: proxima-nova, 'Open Sans', Arial, Helvetice Neue, sans-serif;
     color: var(--text-color);
     font-weight: 300;
     text-transform: uppercase;
-    margin: -7px;
 }
+
 /** Clearfix after containers and items **/
 .clearfix:after {
     visibility: hidden;

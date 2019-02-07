@@ -13,12 +13,14 @@
 
     <!-- Google Web Font Embed -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
     <!-- Stylesheets -->
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
     <link href="css/mcistyle.css" rel="stylesheet" type="text/css">
     <link href="css/mcibuttons.css" rel="stylesheet" type="text/css">
     <link href="css/mcinavbar.css" rel="stylesheet" type="text/css">
+    <link href="css/mcimaingrid.css" rel="stylesheet" type="text/css">
     <link href="https://use.typekit.net/esj3utx.css" rel="stylesheet" type="text/css">
 
     <!-- Scripts -->
@@ -41,41 +43,59 @@
     <div id="top">
         <nav class="navbar navbar-default navbar-fixed-top nav1" role="navigation">
             <div class="container">
-                <div class="align-left">
+                <div class="row">
                     <a class="navbar-brand link-scroll" href="#top">
-                        <h2 class="header-text down-five brand-logo large">Margaretta Colangelo</h2>
-                        <h1 class="header-text down-five brand-logo small">MC</h1>
+                        <h3 class="header-text down-five brand-logo large">Margaretta Colangelo</h3>
+                        <h3 class="header-text down-five brand-logo small">MC</h3>
                     </a>
-                </div>
-                <div class="align-right">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
+                    <div class="align-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button>
+                    </div>
 
-                <div class="align-right collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#welcome" class="link-scroll">HOME</a></li>
-                        <li><a href="#ecosystem" class="link-scroll">THINK TANK</a></li>
-                        <li><a href="#startups" class="link-scroll">COMPANIES</a></li>
-                        <li><a href="#startups" class="link-scroll">NEWS</a></li>
-                        <li><a href="https://www.linkedin.com/in/margarettacolangelo/detail/recent-activity/posts/">ARTICLES</a></li>
-                        <li><a href="#about" class="link-scroll">ABOUT</a></li>
-                    </ul>
+                    <div class="align-right collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#welcome" class="nav-link link-scroll">HOME</a></li>
+                            <li><a href="#ecosystem" class="nav-link link-scroll">THINK TANK</a></li>
+                            <li><a href="#startups" class="nav-link link-scroll">COMPANIES</a></li>
+                            <li><a href="#startups" class="nav-link link-scroll">NEWS</a></li>
+                            <li><a href="https://www.linkedin.com/in/margarettacolangelo/detail/recent-activity/posts/" class="nav-link link-scroll">ARTICLES</a></li>
+                            <li><a href="#about" class="nav-link link-scroll">ABOUT</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
     </div>
 
-    <div class="main-nav spw-section" id="main-nav">
+    <div class="main spw-section" id="main-nav">
         <div class="container">
-            <div class="row">
-                <div class="spw-section-header col-md-12">
-                    <div class="text-center">
-                    </div>
+            <div class="welcome-header">
+                <h1 class="name">Margaretta Colangelo</h1>
+                <hr/>
+                <h3>Managing Partner</h3>
+            </div>
+            <div class="main-grid">
+                <div class="main-center-img">
+                    <img class="main-center-img" src="./images/ppl/Margaretta.jpg"/>
+                    <button class="btn2 btn-1">About</button>
+                </div>
+                <div class="main-link">
+                    <img src="./images/nav/Workspace.jpg"/>
+                    <button class="btn2 btn-1">Think Tank</button>
+                </div>
+                <div class="main-link">
+                    <img src="./images/nav/Stack%20of%20Newspapers.jpg"/>
+                    <button class="btn2 btn-1">News</button>
+                </div>
+                <div class="main-link">
+                    <img src="./images/nav/Male%20Speaker.jpg"/>
+                    <button class="btn2 btn-1">Companies</button>
+                </div>
+                <div class="main-link">
+                    <img src="./images/nav/Article.jpg"/>
+                    <button class="btn2 btn-1">Articles</button>
                 </div>
             </div>
         </div>

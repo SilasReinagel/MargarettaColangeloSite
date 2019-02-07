@@ -2,13 +2,11 @@
 .top-menu {
     z-index: 5000;
     width:100%;
-    height: 80px;
-    min-height: 80px;
-    max-height: 80px;
     margin-bottom: 0;
-    -webkit-box-shadow: 0 4px 8px -2px #999;
-    -moz-box-shadow: 0 4px 8px -2px #999;
-    box-shadow: 0 4px 8px -2px #999;
+    height: 110px;
+    -webkit-box-shadow: 0 3px 5px -2px #999;
+    -moz-box-shadow: 0 3px 5px -2px #999;
+    box-shadow: 0 3px 5px -2px #999;
 }
 
 .navbar {
@@ -22,10 +20,23 @@
 }
 
 .navbar .navbar-nav {
+    margin-top: 25px;
+}
+
+.nav a {
+    font-family: 'Montserrat', 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration:none;
+    color: #0072B5 !important;
 }
 
 .navbar-collapse.in, .navbar-collapse.collapsing {
@@ -36,17 +47,20 @@
     border: 0;
 }
 
-.brand-logo.header-text {
-    margin-top: 1px;
+.brand-logo {
     max-height: 35px !important;
     width: auto !important;
-    margin-bottom: 1px;
+    font-size: 18px !important;
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.brand-logo.header-text {
+    margin-top: 30px;
 }
 
 .brand-logo.small {
     display: none;
-    font-size: 42px !important; 
-    max-height: 35px !important;;
 }
 
 .center.navbar .nav,
@@ -75,6 +89,10 @@
 
 .navbar-nav.navbar-right:last-child {
     margin-right: -15px !important;
+}
+
+.navbar-nav {
+    margin-bottom: 5px;
 }
 
 .navbar-right {
