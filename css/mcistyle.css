@@ -70,6 +70,7 @@ ul, ol {
     color: var(--text-color);
     font-weight: 300;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 /** Clearfix after containers and items **/
@@ -133,10 +134,16 @@ ul, ol {
     color: #000000;
 }
 .hr-line {
-    border: 1.5px solid var(--text-color);
-    margin-top: 0px;
-    margin-bottom: 0px;
+    border: 0.5px solid var(--text-color);
+    min-width: 50vw;
+    max-width: 950px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+.selected {
+    color: #0072B5 !important;
+}
+
 .link-blue, .link-blue:focus, .link-blue:active, .link-blue:visited {
     text-decoration:none;
     color: #0072B5;
@@ -162,20 +169,19 @@ ul, ol {
 .contact h1 {
     margin-bottom: -20px;
 }
+
+.copyright {
+    margin: 16px 0 28px 0;
+}
 .footer {
     background-color: #fff;
     border-top: 1px solid #85714d;
 }
-.footer .copyright p {
-    margin-right: 0px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+
+.footer .copyright h4 {
+    font-weight: 300;
 }
-.footer .links {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
+
 @media only screen and (max-width: 380px) {
     .footer .copyright {
         display: none;
@@ -199,7 +205,7 @@ ul, ol {
     height: auto !important;
 }
 .email-me {
-    background: url("../images/email-icon.png") no-repeat;
+    background: url("../images/email-icon.jpg") no-repeat;
     padding-left: 50px;
     display: block;
     background-size: 40px auto;
