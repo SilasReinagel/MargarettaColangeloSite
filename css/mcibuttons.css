@@ -1,57 +1,1 @@
-
-.btn {
-    border-left-width: 0;
-    border-top-width: 0;
-    border-right-width: 0;
-}
-
-.btn-left {
-    float: left;
-}
-
-.btn-right {
-    float: right;
-}
-
-.btn-left-margin {
-    margin-left: 20px;
-}
-
-.btn-top-margin {
-    margin-top: 15px;
-}
-
-.btn-action {
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.btn-read-more {
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-
-.btn-blue,
-.btn-blue:focus {
-    background-color: #2c94D3;
-    border-bottom:2px solid #0072B5;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    color:#ffffff;
-}
-
-.btn-blue:hover,
-.btn-blue:active,
-.btn-blue.active,
-.open .dropdown-toggle.btn-blue {
-    background-color: #0072B5;
-    border-bottom:2px solid #0072B5;
-    color:#ffffff;
-}
-
-.btn-xl {
-    font-size: 20px;
-    line-height: 2.0;
-    width: 240px;
-}
+.btn {    border-left-width: 0;    border-top-width: 0;    border-right-width: 0;}.btn-left {    float: left;}.btn-right {    float: right;}.btn-left-margin {    margin-left: 20px;}.btn-top-margin {    margin-top: 15px;}.btn-action {    margin-top: 15px;    margin-bottom: 10px;}.btn-read-more {    margin-top: 10px;    margin-bottom: 30px;}.btn-blue,.btn-blue:focus {    background-color: #2c94D3;    border-bottom:2px solid #0072B5;    -webkit-border-radius: 0;    -moz-border-radius: 0;    border-radius: 0;    color:#ffffff;}.btn-blue:hover,.btn-blue:active,.btn-blue.active,.open .dropdown-toggle.btn-blue {    background-color: #0072B5;    border-bottom:2px solid #0072B5;    color:#ffffff;}.btn-xl {    font-size: 20px;    line-height: 2.0;    width: 240px;}
