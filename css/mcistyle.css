@@ -187,6 +187,13 @@ ul, ol {
         display: none;
    }
 }
+
+@media only screen and (max-width: 800px) {
+    .hide-mobile {
+        display: none !important;
+    }
+}
+
 .testimonial-item {
     margin-bottom: 50px;
 }
@@ -204,14 +211,18 @@ ul, ol {
     width: 120px !important;
     height: auto !important;
 }
-.email-me {
-    background: url("../images/email-icon.jpg") no-repeat;
-    padding-left: 50px;
-    display: block;
-    background-size: 40px auto;
-    height: 55px;
-    margin-bottom: 0;
+
+.social-icon {
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
 }
+
+.email-me {
+    background-image: url('../images/email-icon.png');
+}
+
 .img-center {
     margin: 0 auto;
 }
@@ -351,4 +362,20 @@ ul, ol {
     border: 10px #55acee;
     border-radius: 10px;
     padding: 10px;
+}
+
+.twitter-square {
+    background-image: url('../images/social/twitter-square.png');
+}
+
+.twitter-square:hover {
+    background-image: url('../images/social/twitter-square-hover.png');
+}
+
+.linkedin-square {
+    background-image: url('../images/social/linkedin-square.png');
+}
+
+.linkedin-square:hover {
+    background-image: url('../images/social/linkedin-square-hover.png');
 }
