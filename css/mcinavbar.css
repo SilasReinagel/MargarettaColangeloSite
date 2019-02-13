@@ -9,6 +9,10 @@
     box-shadow: 0 3px 5px -2px #999;
 }
 
+.header {
+    margin-bottom: 140px;
+}
+
 .navbar {
     margin-bottom: 0;
     white-space: nowrap;
@@ -27,6 +31,10 @@
     font-family: 'Montserrat', 'Open Sans', Arial, Helvetice Neue, sans-serif;
     font-weight: 300;
     font-size: 14px;
+}
+
+.nav li {
+    background-color: #fff !important;
 }
 
 .navbar .navbar-collapse {
@@ -52,7 +60,6 @@
     width: auto !important;
     font-size: 18px !important;
     font-weight: 300;
-    margin-left: 40px;
 }
 
 .brand-logo.header-text {

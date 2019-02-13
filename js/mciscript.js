@@ -2,21 +2,10 @@ var top_menu_height = 140;
 
 jQuery(function($) {
     $(document).ready( function() {
-        setVideoContainerHeight();
         bindScrollButtonScrolling($);
         bindOnClickHideToSeeMoreLinks($);
     });
 });
-
-function setVideoContainerHeight() {
-    var height = $(window).height() - 150;
-    var unitHeight = parseInt(height) + 'px';
-    var videoContainer = $('.hero-video');
-
-    videoContainer.attr('style', 'min-height:' + unitHeight +  ' !important; ' +
-        'height:' + unitHeight + '!important ' +
-        'max-height:' + unitHeight + ' !important;');
-}
 
 function bindOnClickHideToSeeMoreLinks($)
 {
