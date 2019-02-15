@@ -8,7 +8,7 @@ jQuery(function($) {
 
 function bindScrollButtonScrolling($)
 {
-    $('.link-scroll').click(function (e) {
+    $('.').click(function (e) {
         e.preventDefault();
         var linkId = $(this).attr('href');
         scrollTo(linkId);
