@@ -37,18 +37,20 @@
     background-color: #fff !important;
 }
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
-
 .nav-link:hover,
 .nav-link:focus {
     text-decoration:none;
     color: #0072B5 !important;
 }
 
+.navbar-collapse {
+    text-align: center;
+    background-color: white;
+}
+
 .navbar-collapse.in, .navbar-collapse.collapsing {
     overflow-y: visible;
+    border: 1px solid #888888;
 }
 
 .navbar-default .navbar-toggle .icon-bar {

@@ -189,6 +189,10 @@ ul, ol {
 }
 
 @media only screen and (max-width: 800px) {
+    body {
+        font-size: 12px;
+    }
+
     .hide-mobile {
         display: none !important;
     }
@@ -274,7 +278,6 @@ ul, ol {
 }
 .startup-header-banner {
     width: 100% !important;
-   ;
     height: auto;
 }
 .startup-video {
@@ -378,4 +381,32 @@ ul, ol {
 
 .linkedin-square:hover {
     background-image: url('../images/social/linkedin-square-hover.png');
+}
+
+.article a  {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.article a img {
+    width: 180px !important;
+    height: 180px !important;
+    margin: 20px;
+}
+
+.news a  {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.news a img {
+    width: 180px !important;
+    height: 180px !important;
+    margin: 20px;
 }
