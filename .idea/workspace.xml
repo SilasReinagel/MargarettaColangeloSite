@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="600278d3-01fc-43ca-9b88-9f417bd8d831" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/index.html" afterPath="$PROJECT_DIR$/articles/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/linkscroll.js" afterPath="$PROJECT_DIR$/js/linkscroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mciscript.js" afterPath="$PROJECT_DIR$/js/mciscript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news/index.html" afterPath="$PROJECT_DIR$/news/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/startups/index.html" afterPath="$PROJECT_DIR$/startups/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thinktank/index.html" afterPath="$PROJECT_DIR$/thinktank/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mcimaingrid.css" afterPath="$PROJECT_DIR$/css/mcimaingrid.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +41,8 @@
       <file leaf-file-name="mcimaingrid.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mcimaingrid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1610">
-              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state relative-caret-position="1188">
+              <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -57,8 +51,8 @@
       <file leaf-file-name="mcinavbar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/mcinavbar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="1550193326586" expanded="true" signature="1080:1083" ph="{...}" />
               </folding>
@@ -66,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinktank/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1617">
-              <caret line="587" column="53" lean-forward="true" selection-start-line="587" selection-start-column="53" selection-end-line="587" selection-end-column="53" />
+            <state relative-caret-position="1089">
+              <caret line="571" column="113" lean-forward="true" selection-start-line="571" selection-start-column="113" selection-end-line="571" selection-end-column="113" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -118,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mcistyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mcistyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mcistyle.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1549">
@@ -162,13 +156,13 @@
       <find>decoratio</find>
       <find>.person-</find>
       <find>.person-photo</find>
-      <find>person</find>
       <find>.link-scroll</find>
       <find>l</find>
       <find>link-scr</find>
       <find>link-scro</find>
       <find>link-scrol</find>
       <find>link-scroll</find>
+      <find>person</find>
     </findStrings>
     <replaceStrings>
       <replace>\n</replace>
@@ -189,9 +183,7 @@
         <option value="$PROJECT_DIR$/css/mcibuttons.css" />
         <option value="$PROJECT_DIR$/css/mcihome.css" />
         <option value="$PROJECT_DIR$/about/index.html" />
-        <option value="$PROJECT_DIR$/css/mcimaingrid.css" />
         <option value="$PROJECT_DIR$/css/mcinavbar.css" />
-        <option value="$PROJECT_DIR$/css/mcistyle.css" />
         <option value="$PROJECT_DIR$/js/mciscript.js" />
         <option value="$PROJECT_DIR$/articles/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
@@ -199,6 +191,8 @@
         <option value="$PROJECT_DIR$/news/index.html" />
         <option value="$PROJECT_DIR$/startups/index.html" />
         <option value="$PROJECT_DIR$/thinktank/index.html" />
+        <option value="$PROJECT_DIR$/css/mcimaingrid.css" />
+        <option value="$PROJECT_DIR$/css/mcistyle.css" />
       </list>
     </option>
   </component>
@@ -396,12 +390,12 @@
       <updated>1549396672943</updated>
       <workItem from="1549396674211" duration="679000" />
       <workItem from="1549412355533" duration="10809000" />
-      <workItem from="1550192827066" duration="1953000" />
+      <workItem from="1550192827066" duration="2229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17336000" />
+    <option name="totallyTimeSpent" value="17612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3866" height="2106" extended-state="6" />
@@ -721,32 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/mcimaingrid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1610">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mcinavbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <marker date="1550193326586" expanded="true" signature="1080:1083" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mcistyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1549">
-          <caret line="414" column="0" lean-forward="true" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/mciscript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -797,11 +765,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinktank/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="587" column="53" lean-forward="true" selection-start-line="587" selection-start-column="53" selection-end-line="587" selection-end-column="53" />
+        <state relative-caret-position="1089">
+          <caret line="571" column="113" lean-forward="true" selection-start-line="571" selection-start-column="113" selection-end-line="571" selection-end-column="113" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mcimaingrid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mcinavbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1550193326586" expanded="true" signature="1080:1083" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mcistyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1549">
+          <caret line="414" column="0" lean-forward="true" selection-start-line="414" selection-start-column="0" selection-end-line="414" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
