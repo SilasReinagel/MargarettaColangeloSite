@@ -216,13 +216,6 @@ ul, ol {
     height: auto !important;
 }
 
-.social-icon {
-    background-size: 50px 50px;
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
-}
-
 .email-me {
     background-image: url('../images/email-icon.png');
 }
@@ -288,83 +281,11 @@ ul, ol {
 
 /* Social Media */
 
-.twitter-circle {
-    background-image: url('../images/social/twitter-circle-gold.png');
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0;
-}
-.twitter-circle:hover {
-    background-image: url('../images/social/twitter-circle-blue.png');
-}
-.linkedin-circle {
-    background-image: url('../images/social/linkedin-circle-gold.png');
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0;
-}
-.linkedin-circle:hover {
-    background-image: url('../images/social/linkedin-circle-blue.png');
-}
-.email-circle {
-    background-image: url('../images/social/email-circle-gold.png');
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0;
-}
-.email-circle:hover {
-    background-image: url('../images/social/email-circle-blue.png');
-}
-.blog-circle {
-    background-image: url('../images/social/blog-circle-gold.png');
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0;
-}
-.blog-circle:hover {
-    background-image: url('../images/social/blog-circle-orange.png');
-}
-.angellist-circle {
-    background-image: url('../images/social/angellist-circle-gold.png');
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0;
-}
-.angellist-circle:hover {
-    background-image: url('../images/social/angellist-circle-black.png');
-}
-.producthunt-circle {
-    background-image: url('../images/social/producthunt-circle-gold.png');
-    background-size: 40px 40px;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    margin: 0;
-}
-.producthunt-circle:hover {
-    background-image: url('../images/social/producthunt-circle-orange.png');
-}
-.social-icon-medium {
-    background-size: 60px 60px;
-    width: 60px;
-    height: 60px;
-    margin-right: 20px;
-}
-.twitter-color-bg {
-    background-color: #55acee;
-    border: 10px #55acee;
-    border-radius: 10px;
-    padding: 10px;
+.social-icon {
+    background-size: 42px 42px;
+    width: 42px;
+    height: 42px;
+    margin-right: 5px;
 }
 
 .twitter-square {
@@ -375,6 +296,14 @@ ul, ol {
     background-image: url('../images/social/twitter-square-hover.png');
 }
 
+.angellist-square {
+    background-image: url('../images/social/angellist-square.png');
+}
+
+.angellist-square:hover {
+    background-image: url('../images/social/angellist-square-hover.png');
+}
+
 .linkedin-square {
     background-image: url('../images/social/linkedin-square.png');
 }
@@ -382,6 +311,8 @@ ul, ol {
 .linkedin-square:hover {
     background-image: url('../images/social/linkedin-square-hover.png');
 }
+
+/* News and Articles */
 
 .article a  {
     text-decoration: none;
