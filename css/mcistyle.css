@@ -371,3 +371,31 @@ ul, ol {
 .item {
     margin: 12px;
 }
+
+.book {
+    margin-bottom: 32px;
+}
+
+.book a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    -webkit-box-shadow: 0 3px 5px 0 #999;
+    -moz-box-shadow: 0 3px 5px 0 #999;
+    box-shadow: 0 3px 5px 0 #999;
+}
+
+.book a:hover {
+    transition-duration: 0.3s;
+    -webkit-box-shadow: 0 5px 12px 0 #999;
+    -moz-box-shadow: 0 5px 12px 0 #999;
+    box-shadow: 0 5px 12px 0 #999;
+}
+
+.book img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
