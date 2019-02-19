@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="600278d3-01fc-43ca-9b88-9f417bd8d831" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles.html" afterPath="$PROJECT_DIR$/articles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/books.html" afterPath="$PROJECT_DIR$/books.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mcimaingrid.css" afterPath="$PROJECT_DIR$/css/mcimaingrid.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mcistyle.css" afterPath="$PROJECT_DIR$/css/mcistyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,8 +92,8 @@
       <file leaf-file-name="books.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/books.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="72" column="14" lean-forward="false" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+            <state relative-caret-position="738">
+              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,8 +102,8 @@
       <file leaf-file-name="mcistyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mcistyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="340" column="16" lean-forward="true" selection-start-line="340" selection-start-column="16" selection-end-line="340" selection-end-column="16" />
+            <state relative-caret-position="368">
+              <caret line="380" column="21" lean-forward="false" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -165,8 +159,8 @@
       <find>../startups</find>
       <find>../startups&quot;</find>
       <find>&lt;div class=&quot;col-xs-12&quot;&gt;</find>
-      <find>col-lg-offset-2 col-lg-8</find>
       <find>col-lg-offset-3 col-lg-6</find>
+      <find>col-lg-offset-2 col-lg-8</find>
     </findStrings>
     <replaceStrings>
       <replace>\n</replace>
@@ -175,8 +169,8 @@
       <replace>startups.html</replace>
       <replace>startups.html&quot;</replace>
       <replace>&lt;div class=&quot;col-xs-12 col-lg-offset-2 col-lg-8&quot;&gt;</replace>
-      <replace>col-lg-offset-3 col-lg-6</replace>
       <replace>col-lg-offset-4 col-lg-4</replace>
+      <replace>col-lg-offset-3 col-lg-6</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\srcctrl\MargarettaColangeloSite</dir>
@@ -209,8 +203,8 @@
         <option value="$PROJECT_DIR$/articles.html" />
         <option value="$PROJECT_DIR$/css/mcimaingrid.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/mcistyle.css" />
         <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/css/mcistyle.css" />
       </list>
     </option>
   </component>
@@ -396,12 +390,12 @@
       <workItem from="1550271627089" duration="3711000" />
       <workItem from="1550343230445" duration="1364000" />
       <workItem from="1550519320326" duration="2131000" />
-      <workItem from="1550605126794" duration="1289000" />
+      <workItem from="1550605126794" duration="1513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26208000" />
+    <option name="totallyTimeSpent" value="26432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -725,26 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/books.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="72" column="14" lean-forward="false" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/mcimaingrid.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
           <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="106" column="68" lean-forward="true" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -765,10 +743,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="106" column="68" lean-forward="true" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/mcistyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="340" column="16" lean-forward="true" selection-start-line="340" selection-start-column="16" selection-end-line="340" selection-end-column="16" />
+        <state relative-caret-position="368">
+          <caret line="380" column="21" lean-forward="false" selection-start-line="380" selection-start-column="21" selection-end-line="380" selection-end-column="21" />
           <folding />
         </state>
       </provider>
