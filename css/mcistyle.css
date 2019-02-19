@@ -315,7 +315,7 @@ ul, ol {
 /* News and Articles */
 
 .article {
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 .article a {
@@ -342,11 +342,16 @@ ul, ol {
     height: auto;
 }
 
+.news {
+    margin-bottom: 48px;
+}
+
 .news a  {
     text-decoration: none;
     color: var(--text-color);
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-content: space-between;
     border: 1px solid #000;
     -webkit-box-shadow: 0 5px 12px -2px #999;
@@ -364,7 +369,7 @@ ul, ol {
 
 .news a img {
     width: 180px !important;
-    height: 180px !important;
+    height: auto !important;
     margin: 20px;
 }
 
