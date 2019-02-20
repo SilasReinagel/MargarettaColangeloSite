@@ -377,6 +377,10 @@ ul, ol {
     margin: 12px;
 }
 
+.news .item h4 {
+    margin-bottom: 36px;
+}
+
 .book {
     margin-bottom: 64px;
 }
