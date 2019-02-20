@@ -26,7 +26,7 @@
 }
 
 .main .name {
-    font-size: 4.4rem;
+    font-size: 3.8rem;
     font-weight: 400;
     letter-spacing: 0.5rem;
     margin-bottom: 22px;
@@ -44,7 +44,7 @@
 
 .main-grid {
     display: grid;
-    grid-template-columns: 20vw auto 20vw;
+    grid-template-columns: 16vw auto 16vw;
     grid-template-rows: auto auto auto;
     justify-content: center;
     align-content: center;
@@ -54,12 +54,12 @@
 .main-link {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .main-link img {
-    width: 170px !important;
+    width: 140px !important;
     height: auto !important;
     margin: auto;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -74,10 +74,19 @@
     grid-row: 1 / span 2;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.same-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
 
 .main-center-img img {
-    width: 360px !important;
+    width: 280px !important;
     height: auto !important;
     border-radius: 20px !important;
     margin: auto;
@@ -85,12 +94,12 @@
 }
 
 .main-center-img button {
-    width: 170px;
-    margin: 10px;
+    width: 132px;
+    margin: 5px 5px 16px;
 }
 
 .main-link button {
-    width: 170px;
+    width: 140px;
 }
 
 .btn2 {

@@ -182,6 +182,18 @@ ul, ol {
     font-weight: 300;
 }
 
+.show-mobile {
+    display: none !important;
+}
+
+.mobile-nav {
+    margin-bottom: 36px;
+}
+
+.mobile-nav button {
+    min-width: 54vw;
+}
+
 @media only screen and (max-width: 380px) {
     .footer .copyright {
         display: none;
@@ -195,6 +207,11 @@ ul, ol {
 
     .hide-mobile {
         display: none !important;
+    }
+
+    .show-mobile {
+        display: flex !important;
+        flex-direction: column;
     }
 }
 
