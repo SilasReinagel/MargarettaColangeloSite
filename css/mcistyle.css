@@ -359,6 +359,19 @@ ul, ol {
     height: auto;
 }
 
+.article .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.article hr {
+    border: 0.5px solid var(--text-color);
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .news {
     margin-bottom: 48px;
 }
