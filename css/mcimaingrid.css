@@ -38,19 +38,6 @@
     margin-top: 12px;
 }
 
-.main .name {
-    font-size: 3.8rem;
-    font-weight: 400;
-    letter-spacing: 0.5rem;
-    margin-bottom: 22px;
-}
-
-@media only screen and (max-width: 800px) {
-    .main .name {
-        font-size: 2.3rem;
-    }
-}
-
 .welcome-header h1, h2, h3, h4 {
     text-transform: uppercase;
 }
