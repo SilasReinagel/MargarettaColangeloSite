@@ -438,3 +438,16 @@ ul, ol {
     width: 100%;
     height: auto;
 }
+
+.book .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.book hr {
+    border: 0.5px solid var(--text-color);
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
