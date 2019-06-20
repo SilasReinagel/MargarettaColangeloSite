@@ -372,6 +372,44 @@ ul, ol {
     margin-bottom: 0;
 }
 
+.article .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 6px;
+}
+
+.article .info-row div {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pdf-button {
+    background-color: transparent;
+    border: 0;
+    margin: 3px 6px;
+}
+
+.pdf-button:hover {
+    background-color: #e7c6c6;
+}
+
+.pdf-button:active {
+    background-color: #e7c6c6;
+    outline: none;
+}
+
+.pdf-button:focus {
+    outline: none;
+}
+
+.pdf-icon {
+    width: 32px;
+    height: auto;
+    margin: 15px;
+}
+
 .news {
     margin-bottom: 48px;
 }
