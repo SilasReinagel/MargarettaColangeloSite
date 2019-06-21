@@ -392,6 +392,7 @@ ul, ol {
     margin: 3px 6px;
     display: flex;
     align-items: flex-start;
+    height: 2.2em;
 }
 
 .pdf-button:hover {
@@ -408,9 +409,9 @@ ul, ol {
 }
 
 .pdf-icon {
-    width: 24px;
+    width: 1.4em;
     height: auto;
-    margin: -18px 10px 10px 10px;
+    margin: 0.4em;
 }
 
 .news {
