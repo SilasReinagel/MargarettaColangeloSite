@@ -493,3 +493,113 @@ ul, ol {
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.conference {
+    margin-bottom: 64px;
+}
+
+.conference a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    -webkit-box-shadow: 0 3px 5px 0 #999;
+    -moz-box-shadow: 0 3px 5px 0 #999;
+    box-shadow: 0 3px 5px 0 #999;
+}
+
+.conference a:hover {
+    transition-duration: 0.3s;
+    -webkit-box-shadow: 0 5px 12px 0 #999;
+    -moz-box-shadow: 0 5px 12px 0 #999;
+    box-shadow: 0 5px 12px 0 #999;
+}
+
+.conference img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.conference .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.conference hr {
+    border: 0.5px solid var(--text-color);
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.conference .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 6px;
+}
+
+.conference .info-row .info-header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.resource {
+    margin-bottom: 64px;
+}
+
+.resource a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    -webkit-box-shadow: 0 3px 5px 0 #999;
+    -moz-box-shadow: 0 3px 5px 0 #999;
+    box-shadow: 0 3px 5px 0 #999;
+}
+
+.resource a:hover {
+    transition-duration: 0.3s;
+    -webkit-box-shadow: 0 5px 12px 0 #999;
+    -moz-box-shadow: 0 5px 12px 0 #999;
+    box-shadow: 0 5px 12px 0 #999;
+}
+
+.resource img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.resource .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.resource hr {
+    border: 0.5px solid var(--text-color);
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.resource .info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 6px;
+}
+
+.resource .info-row .info-header {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
