@@ -1,1 +1,145 @@
-.txt-white {    color: #ffffff;}.txt-black {    color: #000000;}.hr-gray {    border: 2px outset #cccccc;}.link-blue,.link-blue:focus,.link-blue:active,.link-blue:visited {    text-decoration:none;    color: #0072B5;    font-weight: 400;}.link-blue:hover {    text-decoration:none;    color: #003d60;}.welcome {    z-index: 10;}.principles {    margin-top: 32px;}.principles h1 {    text-align: center;    margin-bottom: 20px;}.main-nav {    margin-top: 160px;    min-height: 20vh;}.contact {    margin-top: 32px;}.contact h1 {    margin-bottom: -20px;}.testimonial-item {    margin-bottom: 50px;}.links {    margin-top: -10px;    margin-right: 15px;}.startup-logo {    display: block;    width: 120px !important;    height: auto !important;}.img-center {    margin: 0 auto;}.see-more-link {    cursor: pointer;}.media-item {    margin-bottom: 40px;}.icon-link {    width: 40px;    height: 40px;}.last-section {    margin-bottom: 70px;}.startup-item {    margin-bottom: 50px;}.startup-inner {    padding: 15px;}.startup-banner-center {    position:absolute;    top:50%;    min-height:100%;    display:block;    left:50%;    -webkit-transform: translate(-50%, -50%);    min-width:100%;}.startup-banner-top-left {    position:absolute;    min-height:100%;    display:block;    min-width:100%;}.core-principles-img {    height: 40px;    width: auto;    margin-bottom: -8px;}.header-text-img {    height: 40px;    width: auto;}.startup-intro {    margin-bottom: 60px;}.startup-header-banner {    width: 100% !important;;    height: auto;}.startup-video {    min-width: 100% !important;    min-height: 240px;    height: auto !important;}
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+.txt-black {
+    color: #000000;
+}
+
+.hr-gray {
+    border: 2px outset #cccccc;
+}
+
+.link-blue,
+.link-blue:focus,
+.link-blue:active,
+.link-blue:visited {
+    text-decoration:none;
+    color: #0072B5;
+    font-weight: 400;
+}
+
+.link-blue:hover {
+    text-decoration:none;
+    color: #003d60;
+}
+
+.welcome {
+    z-index: 10;
+}
+
+.principles {
+    margin-top: 32px;
+}
+
+.principles h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-nav {
+    margin-top: 160px;
+    min-height: 20vh;
+}
+
+.contact {
+    margin-top: 32px;
+}
+
+.contact h1 {
+    margin-bottom: -20px;
+}
+
+.testimonial-item {
+    margin-bottom: 50px;
+}
+
+.links {
+    margin-top: -10px;
+    margin-right: 15px;
+}
+
+.startup-logo {
+    display: block;
+    width: 120px !important;
+    height: auto !important;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.see-more-link {
+    cursor: pointer;
+}
+
+.media-item {
+    margin-bottom: 40px;
+}
+
+.icon-link {
+    width: 40px;
+    height: 40px;
+}
+
+.last-section {
+    margin-bottom: 70px;
+}
+
+.startup-item {
+    margin-bottom: 50px;
+}
+
+.startup-inner {
+    padding: 15px;
+}
+
+.startup-banner-center {
+    position:absolute;
+    top:50%;
+    min-height:100%;
+    display:block;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    min-width:100%;
+}
+
+.startup-banner-top-left {
+    position:absolute;
+    min-height:100%;
+    display:block;
+    min-width:100%;
+}
+
+.core-principles-img {
+    height: 40px;
+    width: auto;
+    margin-bottom: -8px;
+}
+
+.header-text-img {
+    height: 40px;
+    width: auto;
+}
+
+.startup-intro {
+    margin-bottom: 60px;
+}
+
+.startup-header-banner {
+    width: 100% !important;;
+    height: auto;
+}
+
+.startup-video {
+    min-width: 100% !important;
+    min-height: 240px;
+    height: auto !important;
+}

@@ -44,19 +44,53 @@
 
 .main-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
     justify-content: center;
     align-content: center;
     grid-row-gap: 2.0rem;
     grid-column-gap: 4.0rem;
     margin-bottom: 32px;
+    padding: 12px;
+}
+
+.main-photo {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-photo img {
+    width: 390px !important;
+    max-width: 92vw;
+    height: auto !important;
+    margin: auto;
+    -webkit-box-shadow: 0 4px 7px 0px #999;
+    -moz-box-shadow: 0 4px 7px 0px #999;
+    box-shadow: 0 4px 7px 0px #999;
+}
+
+.main-photo button {
+    width: 140px;
 }
 
 @media only screen and (max-width: 800px) {
+    .main-photo {
+        margin: 12px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+
     .main-grid {
         grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
     }
 
     .r1 {
