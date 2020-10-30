@@ -269,7 +269,19 @@ ol {
   margin-right: 15px;
 }
 
+.person-photo-box {
+  width: 120px !important;
+  height: auto;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.person-photo-lite {
+  width: 100%;
+}
+
 .person-photo {
+  object-fit: cover;
   display: block;
   width: 120px !important;
   height: auto !important;
